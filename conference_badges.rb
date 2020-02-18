@@ -13,4 +13,7 @@ end
 
 def assign_rooms(attendees)
   room = 0 
-  attendees.collect do |
+  attendees.collect do |badge|
+    room += 1 
+    batch_badge_creator(badge)
+    
