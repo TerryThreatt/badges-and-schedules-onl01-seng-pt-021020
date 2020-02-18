@@ -14,9 +14,5 @@ def batch_badge_creator(attendees)
     puts "Hello, my name is #{badges}"
   end 
   
-  def assign_rooms(attendees)
-    attendees.each do |attendee, room_assignments|
-      puts "Hello, #{attendee}! You'll be assigned to room #{room_assignments}!"
-    end 
 
 end
